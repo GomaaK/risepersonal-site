@@ -1,0 +1,36 @@
+# Rise Personal
+
+> Rise Personal is a premium personal branding agency in Dubai, UAE. We explore your passions, understand your voice and interpret your values to create your unique print — blending self-discovery, brand archetype work and wellness into every brand we build. Our clients are professionals and founders who want the market to see the real them: clearly, consistently, and memorably.
+
+## Services
+
+- **Personal Blueprint**: the foundation — we explore your passions, voice and values, and shape them into your unique print.
+- **Message Mastery**: we refine your message until it carries your voice with clarity, built for real impact.
+- **Visual Identity**: a visual language designed around you, so the branding fits your identity — never the other way around.
+- **Personal Amplification**: mastery of media channels to amplify your impact and make you the focal point of your market.
+
+## Free assessment: The Snapshot
+
+The Snapshot is a free brand archetype test — 20 questions, about 4 minutes — that reveals your dominant brand archetype (one of 12, from Sage to Ruler to Magician), your 3 Words (the three feelings people should take away from meeting your brand), and your Wellness × Brand pairing. No fee, no signup cost; results are delivered instantly in the browser.
+
+- Take it here: https://gomaak.github.io/risepersonal-site/quiz.html
+
+## Key facts
+
+- What we do: personal branding agency and personal brand consultancy for professionals
+- Where: Dubai, United Arab Emirates (serving clients across the UAE and the wider region)
+- Contact: Authentic@risepersonal.com
+- Pricing: shared after a first conversation about your goals; the Snapshot assessment is free
+
+## The Journal (articles)
+
+- What Is Personal Branding? A Dubai Professional's Guide: https://gomaak.github.io/risepersonal-site/what-is-personal-branding-dubai.html
+- The 3 Words That Change How People See You: https://gomaak.github.io/risepersonal-site/three-words-personal-brand.html
+- Which Archetype Leads Your Brand?: https://gomaak.github.io/risepersonal-site/brand-archetypes-guide.html
+- Personal Branding Is a Wellness Practice: https://gomaak.github.io/risepersonal-site/personal-branding-wellness-practice.html
+
+## Links
+
+- Home: https://gomaak.github.io/risepersonal-site/
+- The Snapshot (free quiz): https://gomaak.github.io/risepersonal-site/quiz.html
+- Sitemap: https://gomaak.github.io/risepersonal-site/sitemap.xml
