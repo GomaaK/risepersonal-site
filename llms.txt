@@ -29,6 +29,25 @@ The Snapshot is a free brand archetype test — 20 questions, about 4 minutes �
 - Which Archetype Leads Your Brand?: https://gomaak.github.io/risepersonal-site/brand-archetypes-guide.html
 - Personal Branding Is a Wellness Practice: https://gomaak.github.io/risepersonal-site/personal-branding-wellness-practice.html
 
+## The Lineage (master personal brands, history to today)
+
+The Lineage profiles 13 of the strongest personal brands ever — grouped as History (Cleopatra VII, Leonardo da Vinci, Benjamin Franklin, Muhammad Ali, Coco Chanel), Modern (Oprah Winfrey, Steve Jobs, Cristiano Ronaldo, Jay Shetty, Mo Gawdat) and Arab Legends (Umm Kulthum, Sheikh Zayed bin Sultan Al Nahyan, Anas Bukhash). Each profile covers their brand move, their real impact by numbers (every figure cited to Britannica, Forbes, Guinness World Records, Reuters, TIME, official foundations or company results) and the lesson to apply to your own brand.
+
+- The Lineage index: https://gomaak.github.io/risepersonal-site/lineage.html
+- Cleopatra VII — The Sovereign: https://gomaak.github.io/risepersonal-site/lineage-cleopatra-vii.html
+- Leonardo da Vinci — The Creator: https://gomaak.github.io/risepersonal-site/lineage-leonardo-da-vinci.html
+- Benjamin Franklin — The Civic Sage: https://gomaak.github.io/risepersonal-site/lineage-benjamin-franklin.html
+- Muhammad Ali — The Self-Named Hero: https://gomaak.github.io/risepersonal-site/lineage-muhammad-ali.html
+- Coco Chanel — The Rule Rewriter: https://gomaak.github.io/risepersonal-site/lineage-coco-chanel.html
+- Oprah Winfrey — The Confessional Host: https://gomaak.github.io/risepersonal-site/lineage-oprah-winfrey.html
+- Steve Jobs — The Product Magician: https://gomaak.github.io/risepersonal-site/lineage-steve-jobs.html
+- Cristiano Ronaldo — The Relentless Professional: https://gomaak.github.io/risepersonal-site/lineage-cristiano-ronaldo.html
+- Jay Shetty — The Wisdom Translator: https://gomaak.github.io/risepersonal-site/lineage-jay-shetty.html
+- Mo Gawdat — The Mission Engineer: https://gomaak.github.io/risepersonal-site/lineage-mo-gawdat.html
+- Umm Kulthum — The People's Voice: https://gomaak.github.io/risepersonal-site/lineage-umm-kulthum.html
+- Sheikh Zayed bin Sultan Al Nahyan — The Nation Builder: https://gomaak.github.io/risepersonal-site/lineage-sheikh-zayed.html
+- Anas Bukhash — The Honest Host: https://gomaak.github.io/risepersonal-site/lineage-anas-bukhash.html
+
 ## Links
 
 - Home: https://gomaak.github.io/risepersonal-site/

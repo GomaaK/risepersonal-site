@@ -192,6 +192,24 @@ p{margin:0 0 1em}
 .faq-item .faq-a a{color:var(--accent);text-decoration:underline;text-decoration-color:var(--accent-line);text-underline-offset:3px}
 .faq-item .faq-a a:hover{color:var(--ink)}
 
+/* Lineage teaser */
+#lineage{background:var(--ink);color:var(--ivory)}
+#lineage .eyebrow{color:rgba(230,230,230,.85)}
+#lineage h2{color:var(--ivory)}
+#lineage .lede{color:var(--muted-ivory)}
+.lin-grid{display:grid;gap:1.25rem;margin-block-start:2.5rem}
+.lin-card{display:flex;gap:1.15rem;align-items:flex-start;background:rgba(230,230,230,.045);border:1px solid rgba(1,112,253,.28);border-radius:1.25rem;padding:clamp(1.4rem,3vw,1.8rem);text-decoration:none;color:var(--ivory);transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease}
+.lin-card:hover{transform:translateY(-5px);border-color:rgba(1,112,253,.65);box-shadow:0 26px 50px -30px rgba(1,112,253,.35)}
+.lin-mono{flex:none;inline-size:3.6rem;block-size:3.6rem;border-radius:.95rem;display:grid;place-items:center;font-family:var(--font-display);font-weight:700;font-size:1.3rem;color:#fff;background-image:linear-gradient(135deg,#0170FD 0%,#7710D1 100%)}
+.lin-card h3{margin-block-end:.15em;font-size:clamp(1.18rem,2.2vw,1.4rem);color:#fff}
+.lin-era{display:block;font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:rgba(230,230,230,.6);margin-block-end:.5em}
+.lin-arch{display:inline-block;font-size:.64rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--label-dark);border:1px solid rgba(1,112,253,.5);border-radius:999px;padding:.3em .9em;margin-block-end:.6em}
+.lin-move{margin:0;color:var(--muted-ivory);font-size:.93rem;line-height:1.6}
+.lin-read{display:inline-block;margin-block-start:.75rem;font-size:.7rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+.lin-more{display:inline-flex;align-items:center;gap:.5em;margin-block-start:.4rem;font-size:.82rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--label-dark);text-decoration:none}
+.lin-more:hover{color:var(--accent)}
+@media(min-width:40rem){.lin-grid{grid-template-columns:repeat(3,1fr)}}
+
 /* Journal */
 #journal{background:var(--paper-2);border-block-end:1px solid var(--line)}
 .journal-grid{display:grid;gap:1.25rem;margin-block-start:2.75rem}
@@ -238,6 +256,7 @@ p{margin:0 0 1em}
         <li><a class="nav-quiz" href="quiz.html">Discover Yourself<span class="nav-chip">Free</span></a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#why">Why Rise</a></li>
+        <li><a href="lineage.html">The Lineage</a></li>
         <li><a href="#journal">Journal</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -451,6 +470,49 @@ p{margin:0 0 1em}
       </a>
     </div>
     <p class="journal-note reveal">More essays land weekly — <a href="quiz.html">take the Snapshot</a> and meet the ideas before everyone else does.</p>
+  </div>
+</section>
+
+<section id="lineage">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow">The Lineage</p>
+      <h2>Brands that ruled before the internet.</h2>
+      <p class="lede">Thirteen of the strongest personal brands ever — Cleopatra to Ronaldo, Umm Kulthum to Jay Shetty — profiled with real impact numbers, every figure linked to a public source.</p>
+    </div>
+    <div class="lin-grid">
+      <a class="lin-card reveal" href="lineage-muhammad-ali.html">
+        <span class="lin-mono" aria-hidden="true">MA</span>
+        <span>
+          <h3>Muhammad Ali</h3>
+          <span class="lin-era">1942–2016 · History</span>
+          <span class="lin-arch">The Self-Named Hero</span>
+          <p class="lin-move">Declared himself The Greatest — then spent 50 years backing the name.</p>
+          <span class="lin-read">Read the profile →</span>
+        </span>
+      </a>
+      <a class="lin-card reveal" href="lineage-umm-kulthum.html">
+        <span class="lin-mono" aria-hidden="true">UK</span>
+        <span>
+          <h3>Umm Kulthum</h3>
+          <span class="lin-era">1898/1904–1975 · Arab Legends</span>
+          <span class="lin-arch">The People's Voice</span>
+          <p class="lin-move">Owned the first Thursday of every month for forty years — and a region stopped.</p>
+          <span class="lin-read">Read the profile →</span>
+        </span>
+      </a>
+      <a class="lin-card reveal" href="lineage-cristiano-ronaldo.html">
+        <span class="lin-mono" aria-hidden="true">CR</span>
+        <span>
+          <h3>Cristiano Ronaldo</h3>
+          <span class="lin-era">b. 1985 · Modern</span>
+          <span class="lin-arch">The Relentless Professional</span>
+          <p class="lin-move">Turned season-after-season consistency into the most-followed brand on earth.</p>
+          <span class="lin-read">Read the profile →</span>
+        </span>
+      </a>
+    </div>
+    <p style="margin-block-start:2rem"><a class="lin-more" href="lineage.html">View all 13 masters →</a></p>
   </div>
 </section>
 
