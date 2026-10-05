@@ -31,7 +31,7 @@ The Snapshot is a free brand archetype test — 20 questions, about 4 minutes �
 
 ## The Lineage (master personal brands, history to today)
 
-The Lineage profiles 13 of the strongest personal brands ever — grouped as History (Cleopatra VII, Leonardo da Vinci, Benjamin Franklin, Muhammad Ali, Coco Chanel), Modern (Oprah Winfrey, Steve Jobs, Cristiano Ronaldo, Jay Shetty, Mo Gawdat) and Arab Legends (Umm Kulthum, Sheikh Zayed bin Sultan Al Nahyan, Anas Bukhash). Each profile covers their brand move, their real impact by numbers (every figure cited to Britannica, Forbes, Guinness World Records, Reuters, TIME, official foundations or company results) and the lesson to apply to your own brand.
+The Lineage profiles 12 of the strongest personal brands ever — grouped as History (Cleopatra VII, Leonardo da Vinci, Benjamin Franklin, Muhammad Ali, Coco Chanel), Modern (Oprah Winfrey, Steve Jobs, Cristiano Ronaldo, Jay Shetty, Mo Gawdat) and Arab Legends (Umm Kulthum, Sheikh Zayed bin Sultan Al Nahyan). Each profile covers their brand move, their real impact by numbers (every figure cited to Britannica, Forbes, Guinness World Records, Reuters, TIME, official foundations or company results) and the lesson to apply to your own brand.
 
 - The Lineage index: https://gomaak.github.io/risepersonal-site/lineage.html
 - Cleopatra VII — The Sovereign: https://gomaak.github.io/risepersonal-site/lineage-cleopatra-vii.html
@@ -46,7 +46,6 @@ The Lineage profiles 13 of the strongest personal brands ever — grouped as His
 - Mo Gawdat — The Mission Engineer: https://gomaak.github.io/risepersonal-site/lineage-mo-gawdat.html
 - Umm Kulthum — The People's Voice: https://gomaak.github.io/risepersonal-site/lineage-umm-kulthum.html
 - Sheikh Zayed bin Sultan Al Nahyan — The Nation Builder: https://gomaak.github.io/risepersonal-site/lineage-sheikh-zayed.html
-- Anas Bukhash — The Honest Host: https://gomaak.github.io/risepersonal-site/lineage-anas-bukhash.html
 
 ## Links
 
