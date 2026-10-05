@@ -3,13 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Snapshot — Rise Personal · Discover Yourself</title>
-<meta name="description" content="The RisePersonal Snapshot: a free 20-question journey from your personality to your brand archetype, your 3 words, and the wellness practice behind them.">
+<title>Free Brand Archetype Test — The Snapshot · Rise Personal</title>
+<meta name="description" content="The Snapshot by Rise Personal: a free brand archetype test — 20 questions, ±4 minutes — your archetype, 3 words and Wellness × Brand pairing, from a personal branding coach in Dubai, UAE.">
 <meta name="theme-color" content="#101828">
+<link rel="canonical" href="https://gomaak.github.io/risepersonal-site/quiz.html">
 <meta property="og:type" content="website">
-<meta property="og:title" content="The Snapshot — Rise Personal">
+<meta property="og:title" content="Free Brand Archetype Test — The Snapshot · Rise Personal">
 <meta property="og:description" content="20 questions. One archetype. Your 3 words. Discover the brand you already are.">
 <meta property="og:url" content="https://gomaak.github.io/risepersonal-site/quiz.html">
+<meta property="og:site_name" content="Rise Personal">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Free Brand Archetype Test — The Snapshot · Rise Personal">
+<meta name="twitter:description" content="20 questions. One archetype. Your 3 words. Discover the brand you already are.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%23101828'/%3E%3Ctext%20x='32'%20y='45'%20font-family='Georgia,serif'%20font-size='38'%20fill='%23C9A76A'%20text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
 <style>
 :root{
@@ -61,13 +67,20 @@ p{margin:0 0 1em}
 .nav-links{display:none;list-style:none;margin:0;padding:0;align-items:center;gap:1.7rem}
 .nav-links a{color:var(--ink-2);text-decoration:none;font-size:.92rem;font-weight:500;padding-block:.2rem;border-block-end:2px solid transparent;transition:color .2s,border-color .2s}
 .nav-links a:hover,.nav-links a[aria-current="page"]{color:var(--gold);border-block-end-color:var(--gold-line)}
+.nav-links a.nav-quiz{color:var(--gold);font-weight:600}
+.nav-chip{display:inline-block;font-size:.56rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold-line);border-radius:999px;padding:.16em .55em;margin-inline-start:.42em;vertical-align:.18em}
 .nav-cta{padding:.62em 1.25em;font-size:.85rem;white-space:nowrap}
 .nav-contact{display:inline-flex}
 .nav-start{display:none}
-@media(min-width:52rem){
-  .nav-links{display:flex}
+@media(min-width:56rem){
+  .nav-links{display:flex;gap:1.3rem}
+  .nav-links a{font-size:.9rem}
   .nav-contact{display:none}
   .nav-start{display:inline-flex}
+}
+@media(min-width:64rem){
+  .nav-links{gap:1.7rem}
+  .nav-links a{font-size:.92rem}
 }
 
 /* Quiz stage */
@@ -204,10 +217,10 @@ p{margin:0 0 1em}
     <nav aria-label="Primary">
       <ul class="nav-links">
         <li><a href="index.html#about">About</a></li>
-        <li><a href="quiz.html" aria-current="page">Discover Yourself</a></li>
+        <li><a class="nav-quiz" href="quiz.html" aria-current="page">Discover Yourself<span class="nav-chip">Free</span></a></li>
         <li><a href="index.html#services">Services</a></li>
         <li><a href="index.html#why">Why Rise</a></li>
-        <li><a href="index.html#process">Process</a></li>
+        <li><a href="index.html#journal">Journal</a></li>
         <li><a href="index.html#contact">Contact</a></li>
       </ul>
     </nav>
