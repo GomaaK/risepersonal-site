@@ -184,6 +184,28 @@ p{margin:0 0 1em}
 @media(min-width:64rem){.lin-grid{grid-template-columns:repeat(3,1fr)}}
 .method-note{max-width:52rem;margin:2.5rem auto 0;padding-inline:clamp(1.25rem,5vw,2.5rem);text-align:center;color:var(--muted);font-size:.92rem}
 .method-note a{color:var(--accent)}
+
+/* Portrait hero card */
+.portrait-card{margin:2.75rem auto 0;max-width:24rem;background:rgba(230,230,230,.05);border:1px solid rgba(1,112,253,.35);border-radius:1.4rem;overflow:hidden;box-shadow:0 40px 80px -46px rgba(0,0,0,.85)}
+.portrait-card img{display:block;width:100%;height:auto}
+.portrait-card figcaption{padding:.85rem 1.15rem .95rem;font-size:.74rem;line-height:1.55;color:var(--muted-ivory)}
+.portrait-card figcaption a{color:#E6E6E6;text-decoration:underline;text-decoration-color:rgba(1,112,253,.55);text-underline-offset:2px}
+.portrait-card figcaption a:hover{color:var(--accent)}
+/* Typographic hero card */
+.type-card{margin:2.75rem auto 0;max-width:24rem;position:relative;overflow:hidden;border-radius:1.4rem;border:1px solid rgba(1,112,253,.45);background:radial-gradient(30rem 18rem at 85% -10%,rgba(1,112,253,.38),transparent 62%),radial-gradient(24rem 16rem at -10% 112%,rgba(119,16,209,.30),transparent 60%),#141414;padding:3rem 2rem 2.6rem;display:grid;gap:.55rem;justify-items:center;text-align:center}
+.tc-mono{width:4.6rem;height:4.6rem;border-radius:1.15rem;display:grid;place-items:center;font-family:var(--font-display);font-weight:700;font-size:1.7rem;color:#fff;background-image:linear-gradient(135deg,#0170FD 0%,#7710D1 100%);margin-block-end:.9rem}
+.tc-name{font-family:var(--font-display);font-weight:700;font-size:clamp(2.6rem,6vw,3.4rem);line-height:1.02;letter-spacing:-.01em;color:#E6E6E6;background-image:linear-gradient(to top right,#0170FD 0%,#7710D1 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;margin:0}
+.tc-era{font-size:.74rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:rgba(230,230,230,.62)}
+.tc-arch{display:inline-block;font-size:.64rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#E6E6E6;border:1px solid rgba(1,112,253,.5);border-radius:999px;padding:.3em .95em}
+.tc-quote{margin:.9rem 0 0;font-size:.92rem;line-height:1.6;color:var(--muted-ivory);max-width:30ch}
+/* Image credits */
+.credits-block{background:var(--paper-2);border-block-start:1px solid var(--line);padding-block:2.4rem 3rem}
+.credits-block h2{font-size:clamp(1.3rem,2.6vw,1.7rem);margin-block:0 .8rem}
+.credit-list{list-style:none;margin:0;padding:0;display:grid;gap:.55rem}
+.credit-list li{font-size:.85rem;line-height:1.65;color:var(--muted);padding-inline-start:1.1rem;position:relative}
+.credit-list li::before{content:"";position:absolute;inset-inline-start:0;top:.55em;width:.42rem;height:.42rem;border-radius:50%;background-image:linear-gradient(135deg,#0170FD 0%,#7710D1 100%)}
+.credit-list a{color:var(--accent);text-decoration:underline;text-decoration-color:var(--accent-line);text-underline-offset:2px}
+.credit-list a:hover{color:var(--ink)}
 /* Footer */
 .footer{background:var(--ink-deep);color:var(--muted-ivory);padding-block:2.75rem;border-block-start:1px solid rgba(1,112,253,.25)}
 .footer-inner{display:grid;gap:.9rem;justify-items:center;text-align:center}
@@ -224,6 +246,10 @@ p{margin:0 0 1em}
       <span class="chip">Archetype: The Wisdom Translator</span>
       <span class="chip">Impact, sourced</span>
     </div>
+    <figure class="portrait-card">
+      <img src="assets/lineage/jay-shetty-2021.jpg" alt="Jay Shetty — portrait photograph, 2021" width="960" height="1200" loading="eager" decoding="async">
+      <figcaption>Photo: <a href="https://commons.wikimedia.org/wiki/File:Jay_Shetty_Headshot_2021.jpg" target="_blank" rel="noopener">Steven Erle</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a> via <a href="https://commons.wikimedia.org/wiki/File:Jay_Shetty_Headshot_2021.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></figcaption>
+    </figure>
   </div>
 </header>
 
@@ -278,6 +304,16 @@ p{margin:0 0 1em}
   </nav>
 </div>
 
+
+<section class="credits-block" aria-label="Image credits and references">
+  <div class="wrap">
+    <h2>Image credits &amp; references</h2>
+    <ul class="credit-list">
+      <li>Hero image: photograph by Steven Erle, 2021, CC BY-SA 4.0, via Wikimedia Commons (uploaded with the subject's permission). Cropped for display; the display copy keeps the same CC BY-SA 4.0 terms.</li>
+      <li>Impact figures: every number on this page was checked against the public source linked beside it in the “Impact by numbers” section (retrieved October 2026).</li>
+    </ul>
+  </div>
+</section>
 <section class="cta-band" aria-label="Next step">
   <div class="wrap">
     <p class="eyebrow">Your turn</p>
