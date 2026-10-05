@@ -57,6 +57,8 @@ p{margin:0 0 1em}
 .btn-primary:hover{background:var(--gold);color:var(--ink-deep);transform:translateY(-2px);box-shadow:0 14px 30px -14px rgba(16,24,40,.5)}
 .btn-outline{border-color:var(--ink);color:var(--ink);background:transparent}
 .btn-outline:hover{border-color:var(--gold);color:var(--gold);transform:translateY(-2px)}
+.btn-gold{background:var(--gold);color:#fff}
+.btn-gold:hover{background:var(--gold-2);color:var(--ink-deep);transform:translateY(-2px);box-shadow:0 14px 30px -14px rgba(176,141,87,.55)}
 
 /* Nav */
 .nav{position:sticky;top:0;z-index:50;background:rgba(246,241,232,.86);-webkit-backdrop-filter:saturate(1.4) blur(14px);backdrop-filter:saturate(1.4) blur(14px);border-block-end:1px solid var(--line)}
@@ -148,6 +150,16 @@ p{margin:0 0 1em}
 .footer a{color:var(--gold-2);text-decoration:none}
 .footer a:hover{color:var(--gold)}
 
+/* Journal */
+#journal{background:var(--paper-2);border-block-end:1px solid var(--line)}
+.journal-grid{display:grid;gap:1.25rem;margin-block-start:2.75rem}
+.jcard{display:block;background:var(--paper);border:1px solid var(--line);border-radius:1.25rem;padding:clamp(1.6rem,3.5vw,2.2rem);text-decoration:none;color:var(--ink);transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease}
+.jcard:hover{transform:translateY(-5px);border-color:var(--gold-line);box-shadow:0 26px 50px -30px rgba(16,24,40,.4)}
+.jtag{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold-line);border-radius:999px;padding:.35em .95em;margin-block-end:1.1rem}
+.jcard h3{margin-block-end:.4em}
+.jcard p{margin:0;color:var(--muted)}
+@media(min-width:40rem){.journal-grid{grid-template-columns:repeat(3,1fr)}}
+
 /* Motion */
 @media(prefers-reduced-motion:no-preference){
   @keyframes rise-in{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
@@ -176,6 +188,7 @@ p{margin:0 0 1em}
     <nav aria-label="Primary">
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="quiz.html">Discover Yourself</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#why">Why Rise</a></li>
         <li><a href="#process">Process</a></li>
@@ -194,6 +207,7 @@ p{margin:0 0 1em}
     <p class="eyebrow fade d1">Personal Branding Agency · Dubai</p>
     <h1 class="fade d2">Your personal brand is a journey of self-discovery <span class="accent">— let’s explore it together.</span></h1>
     <div class="hero-actions fade d3">
+      <a class="btn btn-gold" href="quiz.html">Take the Snapshot</a>
       <a class="btn btn-primary" href="mailto:Authentic@risepersonal.com">Start your journey</a>
       <a class="btn btn-outline" href="#services">Explore the services</a>
     </div>
@@ -317,6 +331,33 @@ p{margin:0 0 1em}
         <p>Personal Amplification makes you the focal point of the market — announcing the real you.</p>
       </li>
     </ol>
+  </div>
+</section>
+
+<section id="journal">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow">The Journal</p>
+      <h2>Notes from the journey.</h2>
+      <p class="lede">Essays on brand, identity, and the wellness underneath both — coming soon.</p>
+    </div>
+    <div class="journal-grid">
+      <a class="jcard reveal" href="#" aria-label="Personal Branding Is a Wellness Practice — coming soon">
+        <span class="jtag">Coming soon</span>
+        <h3>Personal Branding Is a Wellness Practice</h3>
+        <p>Why the strongest brands are built by people who are doing well — not just doing much.</p>
+      </a>
+      <a class="jcard reveal" href="#" aria-label="The 3 Words That Change How People See You — coming soon">
+        <span class="jtag">Coming soon</span>
+        <h3>The 3 Words That Change How People See You</h3>
+        <p>A tiny vocabulary exercise with an outsized effect on how rooms receive you.</p>
+      </a>
+      <a class="jcard reveal" href="#" aria-label="Which Archetype Leads Your Brand? — coming soon">
+        <span class="jtag">Coming soon</span>
+        <h3>Which Archetype Leads Your Brand?</h3>
+        <p>Sage, Ruler, Magician — or one of nine others. Meet your leading archetype.</p>
+      </a>
+    </div>
   </div>
 </section>
 
