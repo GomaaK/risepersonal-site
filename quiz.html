@@ -461,7 +461,7 @@ var RP_CONFIG = { endpoint: null }; // e.g. "https://formspree.io/f/xxxxx"
   var qlabel = document.getElementById("qlabel");
   var qpct = document.getElementById("qpct");
   var qbar = document.getElementById("qbar");
-  var qfill = document.getElementById("qbar-fill");
+  var qfill = document.getElementById("qfill"); /* FIX v1.0.1: was "qbar-fill" (class, not id) — null crash killed renderStep */
   var qhint = document.getElementById("qhint");
   var lock = false;
 
