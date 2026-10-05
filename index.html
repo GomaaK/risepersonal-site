@@ -3,16 +3,33 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rise Personal — Personal Branding Agency · Dubai, UAE</title>
-<meta name="description" content="Rise Personal is a personal branding agency in Dubai, UAE. We explore your passions, understand your voice and interpret your values to create your unique print.">
+<title>Rise Personal — Personal Branding Agency & Consultant in Dubai, UAE</title>
+<meta name="description" content="A personal branding agency in Dubai, UAE. Personal brand consultants and coaches blending self-discovery, archetype work and wellness into a brand that is unmistakably you.">
 <meta name="theme-color" content="#101828">
+<link rel="canonical" href="https://gomaak.github.io/risepersonal-site/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Rise Personal — Personal Branding Agency · Dubai">
-<meta property="og:description" content="Your personal brand is a journey of self-discovery — let's explore it together.">
+<meta property="og:title" content="Rise Personal — Personal Branding Agency in Dubai, UAE">
+<meta property="og:description" content="Personal brand consultants blending self-discovery, archetype work and wellness into a brand that is unmistakably you. Start with the free Snapshot.">
 <meta property="og:url" content="https://gomaak.github.io/risepersonal-site/">
+<meta property="og:site_name" content="Rise Personal">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Rise Personal — Personal Branding Agency in Dubai, UAE">
+<meta name="twitter:description" content="Personal brand consultants blending self-discovery, archetypes and wellness into a brand that is unmistakably you.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%23101828'/%3E%3Ctext%20x='32'%20y='45'%20font-family='Georgia,serif'%20font-size='38'%20fill='%23C9A76A'%20text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Organization","name":"Rise Personal","email":"Authentic@risepersonal.com","slogan":"Your personal brand is a journey of self-discovery — let's explore it together.","address":{"@type":"PostalAddress","addressLocality":"Dubai","addressCountry":"AE"},"url":"https://gomaak.github.io/risepersonal-site/"}
+{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","name":"Rise Personal","email":"Authentic@risepersonal.com","slogan":"Your personal brand is a journey of self-discovery — let’s explore it together.","address":{"@type":"PostalAddress","addressLocality":"Dubai","addressCountry":"AE"},"url":"https://gomaak.github.io/risepersonal-site/"},
+{"@type":"WebSite","name":"Rise Personal","url":"https://gomaak.github.io/risepersonal-site/","inLanguage":"en","publisher":{"@type":"Organization","name":"Rise Personal","url":"https://gomaak.github.io/risepersonal-site/"}},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is personal branding?","acceptedAnswer":{"@type":"Answer","text":"Personal branding is the deliberate practice of shaping how people perceive, remember and trust you. It brings your reputation — your values, voice and expertise — into a clear, consistent presence across every room you enter, online and offline."}},
+{"@type":"Question","name":"What does a personal branding consultant do?","acceptedAnswer":{"@type":"Answer","text":"A personal branding consultant helps you uncover the strengths and values that make you distinctive, then translates them into clear positioning, message and visual identity. At Rise Personal, we guide you from self-discovery through amplification, so the brand stays authentically yours."}},
+{"@type":"Question","name":"How much does personal branding cost in Dubai?","acceptedAnswer":{"@type":"Answer","text":"Personal branding services in Dubai typically range from a few thousand dirhams for a focused engagement to tens of thousands for a full identity and amplification programme. The investment depends on scope — discovery, messaging, visual identity and media strategy. We share exact pricing after a first conversation about your goals."}},
+{"@type":"Question","name":"What are the 3 words of a personal brand?","acceptedAnswer":{"@type":"Answer","text":"Your 3 words are the three feelings you want people to take away from meeting your brand — chosen from your archetype, strengths and aspirations. They act as a compass for your LinkedIn headline, introductions and content. The free Snapshot generates yours in about four minutes."}},
+{"@type":"Question","name":"How does wellness connect to personal branding?","acceptedAnswer":{"@type":"Answer","text":"An authentic brand needs an energised person behind it. Self-knowledge and sustainable habits keep your presence consistent, while burnout flattens it into imitation. That is why we treat branding as a wellness practice, not just a marketing project."}},
+{"@type":"Question","name":"Is the Rise Personal assessment free?","acceptedAnswer":{"@type":"Answer","text":"Yes — the Snapshot is completely free. It is a 20-question assessment that reveals your dominant brand archetype, your 3 words and your Wellness × Brand pairing in about four minutes, with results delivered instantly."}}
+]}
+]}
 </script>
 <style>
 :root{
@@ -69,13 +86,20 @@ p{margin:0 0 1em}
 .nav-links{display:none;list-style:none;margin:0;padding:0;align-items:center;gap:1.7rem}
 .nav-links a{color:var(--ink-2);text-decoration:none;font-size:.92rem;font-weight:500;padding-block:.2rem;border-block-end:2px solid transparent;transition:color .2s,border-color .2s}
 .nav-links a:hover{color:var(--gold);border-block-end-color:var(--gold-line)}
+.nav-links a.nav-quiz{color:var(--gold);font-weight:600}
+.nav-chip{display:inline-block;font-size:.56rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold-line);border-radius:999px;padding:.16em .55em;margin-inline-start:.42em;vertical-align:.18em}
 .nav-cta{padding:.62em 1.25em;font-size:.85rem;white-space:nowrap}
 .nav-contact{display:inline-flex}
 .nav-start{display:none}
-@media(min-width:52rem){
-  .nav-links{display:flex}
+@media(min-width:56rem){
+  .nav-links{display:flex;gap:1.3rem}
+  .nav-links a{font-size:.9rem}
   .nav-contact{display:none}
   .nav-start{display:inline-flex}
+}
+@media(min-width:64rem){
+  .nav-links{gap:1.7rem}
+  .nav-links a{font-size:.92rem}
 }
 
 /* Hero */
@@ -150,6 +174,19 @@ p{margin:0 0 1em}
 .footer a{color:var(--gold-2);text-decoration:none}
 .footer a:hover{color:var(--gold)}
 
+/* FAQ */
+#faq{background:var(--paper)}
+.faq-list{display:grid;gap:1rem;margin-block-start:2.5rem;max-width:52rem;margin-inline:auto}
+.faq-item{background:var(--paper-2);border:1px solid var(--line);border-radius:1.1rem;transition:border-color .25s ease}
+.faq-item[open]{border-color:var(--gold-line)}
+.faq-item summary{display:flex;justify-content:space-between;align-items:center;gap:1rem;list-style:none;cursor:pointer;padding:1.15rem 1.4rem;font-family:var(--font-display);font-size:1.12rem;color:var(--ink)}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:"+";font-family:var(--font-body);color:var(--gold);font-size:1.45rem;line-height:1;transition:transform .25s ease}
+.faq-item[open] summary::after{transform:rotate(45deg)}
+.faq-item .faq-a{margin:0;padding:0 1.4rem 1.25rem;color:var(--muted);font-size:1rem;line-height:1.7}
+.faq-item .faq-a a{color:var(--gold);text-decoration:underline;text-decoration-color:var(--gold-line);text-underline-offset:3px}
+.faq-item .faq-a a:hover{color:var(--ink)}
+
 /* Journal */
 #journal{background:var(--paper-2);border-block-end:1px solid var(--line)}
 .journal-grid{display:grid;gap:1.25rem;margin-block-start:2.75rem}
@@ -158,7 +195,12 @@ p{margin:0 0 1em}
 .jtag{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold-line);border-radius:999px;padding:.35em .95em;margin-block-end:1.1rem}
 .jcard h3{margin-block-end:.4em}
 .jcard p{margin:0;color:var(--muted)}
-@media(min-width:40rem){.journal-grid{grid-template-columns:repeat(3,1fr)}}
+.jread{display:inline-block;margin-block-start:.9rem;font-size:.74rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.journal-note{margin-block-start:1.8rem;text-align:center;font-size:.92rem;color:var(--muted)}
+.journal-note a{color:var(--gold);text-decoration:none}
+.journal-note a:hover{text-decoration:underline}
+@media(min-width:40rem){.journal-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:64rem){.journal-grid{grid-template-columns:repeat(4,1fr)}}
 
 /* Motion */
 @media(prefers-reduced-motion:no-preference){
@@ -188,10 +230,10 @@ p{margin:0 0 1em}
     <nav aria-label="Primary">
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="quiz.html">Discover Yourself</a></li>
+        <li><a class="nav-quiz" href="quiz.html">Discover Yourself<span class="nav-chip">Free</span></a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#why">Why Rise</a></li>
-        <li><a href="#process">Process</a></li>
+        <li><a href="#journal">Journal</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -334,30 +376,76 @@ p{margin:0 0 1em}
   </div>
 </section>
 
+<section id="faq">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow center">Questions, answered</p>
+      <h2 style="text-align:center">Before you begin.</h2>
+      <p class="lede" style="margin-inline:auto;text-align:center">The questions professionals ask us most — answered the way we would answer them over coffee.</p>
+    </div>
+    <div class="faq-list reveal">
+      <details class="faq-item">
+        <summary>What is personal branding?</summary>
+        <p class="faq-a">Personal branding is the deliberate practice of shaping how people perceive, remember and trust you. It brings your reputation — your values, voice and expertise — into a clear, consistent presence across every room you enter, online and offline.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What does a personal branding consultant do?</summary>
+        <p class="faq-a">A personal branding consultant helps you uncover the strengths and values that make you distinctive, then translates them into clear positioning, message and visual identity. At Rise Personal, we guide you from self-discovery through amplification, so the brand stays authentically yours.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How much does personal branding cost in Dubai?</summary>
+        <p class="faq-a">Personal branding services in Dubai typically range from a few thousand dirhams for a focused engagement to tens of thousands for a full identity and amplification programme. The investment depends on scope — discovery, messaging, visual identity and media strategy. We share exact pricing after a first conversation about your goals.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What are the 3 words of a personal brand?</summary>
+        <p class="faq-a">Your 3 words are the three feelings you want people to take away from meeting your brand — chosen from your archetype, strengths and aspirations. They act as a compass for your LinkedIn headline, introductions and content. The <a href="quiz.html">free Snapshot</a> generates yours in about four minutes.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How does wellness connect to personal branding?</summary>
+        <p class="faq-a">An authentic brand needs an energised person behind it. Self-knowledge and sustainable habits keep your presence consistent, while burnout flattens it into imitation. That is why we treat branding as a wellness practice, not just a marketing project — read more in the <a href="personal-branding-wellness-practice.html">Journal</a>.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Is the Rise Personal assessment free?</summary>
+        <p class="faq-a">Yes — the Snapshot is completely free. It is a 20-question assessment that reveals your dominant brand archetype, your 3 words and your Wellness × Brand pairing in about four minutes, with results delivered instantly. <a href="quiz.html">Take it here</a>.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
 <section id="journal">
   <div class="wrap">
     <div class="reveal">
       <p class="eyebrow">The Journal</p>
       <h2>Notes from the journey.</h2>
-      <p class="lede">Essays on brand, identity, and the wellness underneath both — coming soon.</p>
+      <p class="lede">Essays on brand, identity, and the wellness underneath both — written from our studio in Dubai.</p>
     </div>
     <div class="journal-grid">
-      <a class="jcard reveal" href="#" aria-label="Personal Branding Is a Wellness Practice — coming soon">
-        <span class="jtag">Coming soon</span>
+      <a class="jcard reveal" href="personal-branding-wellness-practice.html">
+        <span class="jtag">Wellness × Brand</span>
         <h3>Personal Branding Is a Wellness Practice</h3>
         <p>Why the strongest brands are built by people who are doing well — not just doing much.</p>
+        <span class="jread">Read the essay →</span>
       </a>
-      <a class="jcard reveal" href="#" aria-label="The 3 Words That Change How People See You — coming soon">
-        <span class="jtag">Coming soon</span>
+      <a class="jcard reveal" href="three-words-personal-brand.html">
+        <span class="jtag">Practice</span>
         <h3>The 3 Words That Change How People See You</h3>
-        <p>A tiny vocabulary exercise with an outsized effect on how rooms receive you.</p>
+        <p>A small vocabulary exercise with an outsized effect on how rooms receive you.</p>
+        <span class="jread">Read the essay →</span>
       </a>
-      <a class="jcard reveal" href="#" aria-label="Which Archetype Leads Your Brand? — coming soon">
-        <span class="jtag">Coming soon</span>
+      <a class="jcard reveal" href="brand-archetypes-guide.html">
+        <span class="jtag">Archetypes</span>
         <h3>Which Archetype Leads Your Brand?</h3>
         <p>Sage, Ruler, Magician — or one of nine others. Meet your leading archetype.</p>
+        <span class="jread">Read the essay →</span>
+      </a>
+      <a class="jcard reveal" href="what-is-personal-branding-dubai.html">
+        <span class="jtag">Guide</span>
+        <h3>What Is Personal Branding? A Dubai Professional’s Guide</h3>
+        <p>The honest definition, why it matters in the UAE, and a five-step way to begin.</p>
+        <span class="jread">Read the essay →</span>
       </a>
     </div>
+    <p class="journal-note reveal">More essays land weekly — <a href="quiz.html">take the Snapshot</a> and meet the ideas before everyone else does.</p>
   </div>
 </section>
 
