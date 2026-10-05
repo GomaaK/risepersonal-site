@@ -200,7 +200,7 @@ p{margin:0 0 1em}
 .lin-grid{display:grid;gap:1.25rem;margin-block-start:2.5rem}
 .lin-card{display:flex;gap:1.15rem;align-items:flex-start;background:rgba(230,230,230,.045);border:1px solid rgba(1,112,253,.28);border-radius:1.25rem;padding:clamp(1.4rem,3vw,1.8rem);text-decoration:none;color:var(--ivory);transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease}
 .lin-card:hover{transform:translateY(-5px);border-color:rgba(1,112,253,.65);box-shadow:0 26px 50px -30px rgba(1,112,253,.35)}
-.lin-mono{flex:none;inline-size:3.6rem;block-size:3.6rem;border-radius:.95rem;display:grid;place-items:center;font-family:var(--font-display);font-weight:700;font-size:1.3rem;color:#fff;background-image:linear-gradient(135deg,#0170FD 0%,#7710D1 100%)}
+.lin-photo{flex:none;inline-size:3.6rem;block-size:3.6rem;border-radius:.95rem;object-fit:cover;object-position:50% 15%;border:1px solid rgba(1,112,253,.28);background:var(--ink)}
 .lin-card h3{margin-block-end:.15em;font-size:clamp(1.18rem,2.2vw,1.4rem);color:#fff}
 .lin-era{display:block;font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:rgba(230,230,230,.6);margin-block-end:.5em}
 .lin-arch{display:inline-block;font-size:.64rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--label-dark);border:1px solid rgba(1,112,253,.5);border-radius:999px;padding:.3em .9em;margin-block-end:.6em}
@@ -482,7 +482,7 @@ p{margin:0 0 1em}
     </div>
     <div class="lin-grid">
       <a class="lin-card reveal" href="lineage-muhammad-ali.html">
-        <span class="lin-mono" aria-hidden="true">MA</span>
+        <img class="lin-photo" src="assets/lineage/muhammad-ali-1966.jpg" alt="" width="132" height="132" loading="lazy" decoding="async">
         <span>
           <h3>Muhammad Ali</h3>
           <span class="lin-era">1942–2016 · History</span>
@@ -492,7 +492,7 @@ p{margin:0 0 1em}
         </span>
       </a>
       <a class="lin-card reveal" href="lineage-umm-kulthum.html">
-        <span class="lin-mono" aria-hidden="true">UK</span>
+        <img class="lin-photo" src="assets/lineage/umm-kulthum-1969.jpg" alt="" width="132" height="132" loading="lazy" decoding="async">
         <span>
           <h3>Umm Kulthum</h3>
           <span class="lin-era">1898/1904–1975 · Arab Legends</span>
@@ -502,7 +502,7 @@ p{margin:0 0 1em}
         </span>
       </a>
       <a class="lin-card reveal" href="lineage-cristiano-ronaldo.html">
-        <span class="lin-mono" aria-hidden="true">CR</span>
+        <img class="lin-photo" src="assets/lineage/cristiano-ronaldo-2023.jpg" alt="" width="132" height="132" loading="lazy" decoding="async">
         <span>
           <h3>Cristiano Ronaldo</h3>
           <span class="lin-era">b. 1985 · Modern</span>
